@@ -15,8 +15,8 @@ export interface IBook extends Document {
 
 const BookSchema = new schema({
 
-	title:{ type: String, required: true },
-    overview: { type: String,  required: true},
+	title:{ type: String , required: true },
+    overview: { type: String, required: true},
     category:String,
     price: { type: Number, required: true},
     created_date: Date
