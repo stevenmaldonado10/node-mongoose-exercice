@@ -2,7 +2,7 @@ import { request, Request, Response } from "express";
 import {bookModel as Book, IBook}  from "../models/bookModel";
 
 export const addNewBook = async (req: Request, res:Response)=> {
-    console.log(req.body)
+    
     try {
         //const newBook : IBook = new Book();
    

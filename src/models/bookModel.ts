@@ -9,7 +9,7 @@ export interface IBook extends Document {
     overview: string,
     category: string,
     price: number,
-    //created_date: Date
+    created_date: Date
 }
 
 
@@ -19,7 +19,7 @@ const BookSchema = new schema({
     overview: { type: String, required: true},
     category:String,
     price: { type: Number, required: true},
-    //created_date: 
+    created_date: Date
 }
 )
 
